@@ -1,0 +1,16 @@
+{
+  "python.testing.pytestArgs": [
+    ".",
+    "-s",
+    "-v"
+  ],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "python.formatting.provider": "autopep8",
+  "python.formatting.autopep8Args": [
+    "--indent-size=2",
+    "--ignore=E121",
+    "--max-line-length=120"
+  ],
+  "git.inputValidationSubjectLength": 72
+}
